@@ -58,11 +58,20 @@
 
 + __Provider__ (링크: <https://pub.dev/packages/provider/install>)
 
+   - Provider를 이용하여 BucketService를 위젯 트리(Widget tree)의 꼭대기에 배치
+   
+   - 어디서든 쉽게 접근할 수 있도록 만들어줌
+
 + __ChangeNotifier 클래스__
 
    notifylisteners();를 호출하여 위젯들을 갱신하는 기능을 사용 가능
 
 
 ## 5. 버킷 리스트 앱에 Provider 적용하기
+
++ __Consumer 위젯__
+
+   provider에서 제공해주는 위젯으로, 꼭대기에 있는 것들을 홈페이지에서 접근할 수 있게 함
+   
 
 ## 6. 실습 - 한 줄 일기
