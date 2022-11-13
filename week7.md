@@ -56,6 +56,13 @@
 
 ## 4. 상태 관리 패키지 Provider 준비하기
 
++ __Provider__ (링크: <https://pub.dev/packages/provider/install>)
+
++ __ChangeNotifier 클래스__
+
+   notifylisteners();를 호출하여 위젯들을 갱신하는 기능을 사용 가능
+
+
 ## 5. 버킷 리스트 앱에 Provider 적용하기
 
 ## 6. 실습 - 한 줄 일기
