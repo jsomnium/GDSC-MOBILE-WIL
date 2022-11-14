@@ -39,4 +39,18 @@
 
 - TabBar 및 TabBarView에 편리한 상태 저장 조상이 없는 경우 ```DefaultTabController``` 상속 위젯을 제공하여 TabController를 공유할 수 있음
 
-# 2. floatingActionButton
+# 2. FloatingActionButton
+
+- FloatingActionButton: 디자인 액션 버튼
+
+- Scaffold 안에 넣어서 사용 
+
+```
+floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.add),
+        onPressed: () {
+          // Add onPressed code
+        },
+```
+
+- 하단 탭이 있는 경우에도 FAB를 끼워넣을 수 있음
