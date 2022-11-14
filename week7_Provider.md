@@ -24,5 +24,10 @@
   * ```StatelessWidget```을 더 선호함
   
   * ```notifyListners()```가 있는 위젯을 사용하여 화면의 반만 전환
+
+   > __요약__
+   > 
+   >  ```ChangeNotifierProvider``` 위젯으로 감싸주고 거기에 ```create```를 만들어서 Provider return을 하는 것을 넣어줌
+   >  SetState가 필요한 시점에는 ```notifyListners()``` 사용
   
-### Provider의 장점: 화면의 필요한 부분만 효율적으로 다시 그리게 하는 것
+###   Provider의 장점: 화면의 필요한 부분만 효율적으로 다시 그리게 하는 것
