@@ -52,5 +52,7 @@
 ## 06. 실습 - Book Store
 
 + AppBar 안에 Text를 넣기
-	Action -> Container -> Text
+
+
+  Action -> Container -> Text
 
