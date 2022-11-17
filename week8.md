@@ -53,6 +53,7 @@
 
 + AppBar 안에 Text를 넣기
 
-
-  Action -> Container -> Text
+  actions -> Container -> Text()
+  
+  actions -> Text() 실행이 안되던데 .. 왜?
 
